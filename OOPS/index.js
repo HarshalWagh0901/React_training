@@ -38,8 +38,8 @@ class MathUtil {
         return 2 * this.PI * radius;
     }
 
-    static getArea(radious) {
-        return this.PI * radious * radious;
+    static getArea(radius) {
+        return this.PI * radius * radius;
     }
 }
 
