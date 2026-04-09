@@ -82,8 +82,8 @@ console.log(cubes);
 // ------------------------------------------------------------------------------------------------------
 
 /*
-    arrow function = a consise way to write a function expressions,
-                     - good for simple functions that you use only once, or as a callback function.
+    arrow function = a concise way to write function expressions,
+                     - good for simple functions that you use only once or as callback functions.
                      - {parameters} => some code
 */
 
