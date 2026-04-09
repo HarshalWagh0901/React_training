@@ -23,7 +23,7 @@ function walkTheDog() {
         setTimeout(() => {
             const dogWalked = true;
 
-            if (walkTheDog) {
+            if (dogWalked) {
                 resolve("You walked the dog 🐩");
             }
             else {

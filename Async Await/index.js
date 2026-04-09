@@ -1,10 +1,10 @@
 /*
-    Async/Await = allows you write asynchrounous code in a synchronous manner,
+    Async/Await = allows you to write asynchronous code in a synchronous manner,
                   async doesn't have resolve or reject parameters,
                   Everything after awaits is placed in an event queue
 
             - Async = makes a function return a promise
-            - Await = makes a async function wait for a promise.
+            - Await = makes an async function wait for a promise.
 */
 
 function walkTheDog() {
@@ -13,7 +13,7 @@ function walkTheDog() {
         setTimeout(() => {
             const dogWalked = true;
 
-            if (walkTheDog) {
+            if (dogWalked) {
                 resolve("You walked the dog 🐩");
             }
             else {
