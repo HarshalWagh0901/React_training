@@ -16,7 +16,7 @@ class Product{
     }
 }
 
-const taxRate = 0.18;    // in percentage
+const taxRate = 0.18;    // fractional tax rate (18%)
 
 const product1 = new Product("Watch", 14999);
 console.log(product1);
