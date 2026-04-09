@@ -1,5 +1,5 @@
 //  Class = (ES6) feature provides a more structured and cleaner way to work with objects compared to traditional constructor functions
-//         i.g - static keyword, encapsulation, inheritance, polymorphism, etc.
+//         e.g. - static keyword, encapsulation, inheritance, polymorphism, etc.
 
 class Product{
     constructor(name, price) {
